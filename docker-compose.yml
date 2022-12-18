@@ -1,0 +1,5 @@
+services:
+  stepfunctions:
+    image: amazon/aws-stepfunctions-local
+    ports:
+      - 8083:8083
